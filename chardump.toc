@@ -1,0 +1,28 @@
+## Interface: 30300
+## Title: chardump
+## Notes: Character dump for WotLK 3.3.5
+## Author: You
+## Version: 1.0.0
+## SavedVariablesPerCharacter: CHDMP_DATA, CHDMP_KEY, CHDMP_VER
+
+utils.lua
+taskrunner.lua
+localization.lua
+collect_professions.lua
+core.lua
+collect_player.lua
+collect_spells.lua
+collect_currency.lua
+collect_mac.lua
+collect_achievements.lua
+collect_quests.lua
+collect_statistics.lua
+collect_inventory.lua
+collect_bank.lua
+collect_reputation.lua
+collect_skills.lua
+collect_talents.lua
+collect_glyphs.lua
+collect_macros.lua
+collect_bindings.lua
+collect_actionbars.lua
