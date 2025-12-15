@@ -23,8 +23,8 @@ end
 function private.GetIData()
     local ret = {}
 
-    -- Equipped: WotLK Slots (0..19 is safe-ish; keep 0..19 to match your older layout)
-    for slot = 0, 19 do
+    -- Equipped: WotLK Slots (1 to 19 gear and 20 to 23 bag 1-4)
+    for slot = 1, 23 do
         local itemLink = GetInventoryItemLink("player", slot)
         if itemLink then
             local _, quality, equipSlot = SafeGetItemInfo(itemLink)
